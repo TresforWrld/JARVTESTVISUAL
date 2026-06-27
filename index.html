@@ -302,7 +302,7 @@
     <div class="core" id="core" onclick="toggleListen()" title="Tap to speak"></div>
   </div>
 
-  <div class="state-label" id="stateLabel">STANDBY</div>
+  <div class="state-label" id="stateLabel"></div>
 
   <div class="response-area">
     <div class="response-text" id="responseText"></div>
@@ -575,7 +575,7 @@
 
   // ── Boot greeting ──
   setTimeout(() => {
-    const greeting = 'Good day. J.A.R.V.I.S. is online. All systems are nominal. Tap the reactor or microphone to speak, sir.';
+    const greeting = 'allow me to introduce myself, I am Jarvis, a virtual artificial intelligence and I'm here to assist you with a variety of tasks as best I can, 24 hours a day, 7 days a week, importing all preferences from home interface. Systems are fully operational.';
     showResponse(greeting);
     speak(greeting);
   }, 1000);
